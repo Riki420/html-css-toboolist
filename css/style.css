@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*Generics*/
+
+body{
+    background-color: #aaaaaa;
+}
+
+
+/*Header*/
+header{
+    margin: 10px;
+    background-color: #fff;
+    height: 100px;
+    width: auto;
+}
+
+.logo-text{
+    display: inline-block;
+    line-height: normal;
+    font-size: 44px;
+}
+
+#logo{
+    vertical-align:middle;
+
+}
+
+/*Main*/
+
+.main-container{
+    width: 1000px;
+    height: auto;
+    background-color: green;
+    margin: 0 auto;
+
+}
