@@ -113,6 +113,7 @@ li{
     color: white;
     margin-left: 20px;
     font-size: 12px;
+    padding: 0 10px;
 }
 
 .q1-goals{
@@ -123,6 +124,7 @@ li{
     color: white;
     margin-left: 20px;
     font-size: 12px;
+    padding: 0 10px;
 }
 
 .recruiting{
@@ -133,6 +135,7 @@ li{
     color: white;
     margin-left: 20px;
     font-size: 12px;
+    padding: 0 10px;
 }
 
 .mobile{
@@ -143,6 +146,7 @@ li{
     color: white;
     margin-left: 20px;
     font-size: 12px;
+    padding: 0 10px;
 }
 
 .website{
@@ -153,6 +157,7 @@ li{
     color: white;
     margin-left: 20px;
     font-size: 12px;
+    padding: 0 10px;
 }
 
 .sales{
@@ -163,4 +168,5 @@ li{
     color: white;
     margin-left: 20px;
     font-size: 12px;
+    padding: 0 10px;
 }
