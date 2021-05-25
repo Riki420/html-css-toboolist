@@ -8,23 +8,29 @@
 
 body{
     background-color: #aaaaaa;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
 /*Header*/
 header{
     background-color: #fff;
-    height: 100px;
+    height: 80px;
     width: auto;
+    padding: 10px 20px;
+    margin-bottom: 20px;
 }
 
-.logo-text{
+#logo-text{
     display: inline-block;
-    font-size: 44px;
+    font-size: 38px;
+    font-weight: 900;
+    vertical-align: middle;
 }
 
 #logo{
     vertical-align:middle;
+    height: 100%;
 
 }
 
@@ -40,6 +46,7 @@ header{
 
 .button-main{
     padding: 20px;
+    margin-left: 40px;
 }
 
 .btn-active{
@@ -60,6 +67,100 @@ header{
     opacity: 0.8;
 }
 
-.text-task{
-    padding: 20px;
+/*Tasks*/
+
+
+h2{
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+ul{
+    list-style: none;
+    font-size: 18px;
+    line-height: 18px;
+    margin-left: 60px;
+}
+li{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.li-check{
+    color: #1a1a;
+    border-radius: 40px;
+    border: 2px solid #1a1a;
+    padding: 4px;
+    display: inline-block;
+}
+
+.li-cross{
+    color: #c51610e7;
+    border-radius: 40px;
+    border: 2px solid #c51610e7;
+    padding: 4px;
+    display: inline-block;
+
+}
+
+.editorial{
+    display: inline-block;
+    background-color: #2aa8f1;
+    border-radius: 6px;
+    padding: 4px;
+    color: white;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+.q1-goals{
+    display: inline-block;
+    background-color: #da86e6;
+    border-radius: 6px;
+    padding: 4px;
+    color: white;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+.recruiting{
+    display: inline-block;
+    background-color: #70c94d;
+    border-radius: 6px;
+    padding: 4px;
+    color: white;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+.mobile{
+    display: inline-block;
+    background-color: #f18a2a;
+    border-radius: 6px;
+    padding: 4px;
+    color: white;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+.website{
+    display: inline-block;
+    background-color: #eb7e99;
+    border-radius: 6px;
+    padding: 4px;
+    color: white;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+.sales{
+    display: inline-block;
+    background-color: #ade446;
+    border-radius: 6px;
+    padding: 4px;
+    color: white;
+    margin-left: 20px;
+    font-size: 12px;
 }
