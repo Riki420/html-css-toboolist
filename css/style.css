@@ -13,7 +13,6 @@ body{
 
 /*Header*/
 header{
-    margin: 10px;
     background-color: #fff;
     height: 100px;
     width: auto;
@@ -21,7 +20,6 @@ header{
 
 .logo-text{
     display: inline-block;
-    line-height: normal;
     font-size: 44px;
 }
 
@@ -35,7 +33,33 @@ header{
 .main-container{
     width: 1000px;
     height: auto;
-    background-color: green;
+    background-color: #fff;
     margin: 0 auto;
 
+}
+
+.button-main{
+    padding: 20px;
+}
+
+.btn-active{
+    border-radius: 6px;
+    background-color: rgb(42, 168, 241);
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    border-style: none;
+}
+.btn-off{
+    border-radius: 6px;
+    background-color: #fff;
+    color: #686767;
+    font-size: 16px;
+    padding: 10px;
+    border: 2px solid #686767;
+    opacity: 0.8;
+}
+
+.text-task{
+    padding: 20px;
 }
